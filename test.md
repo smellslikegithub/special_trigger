@@ -1,17 +1,29 @@
+# Project Name
 
+TODO: Write a project description
+
+### Installation
+
+TODO: Describe Contributing the installation process
+
+#### Usage
+
+TODO: Write usage instructions
 
 #### Contributing
-
 - Fork it!
 - Create your feature branch: `git checkout -b my-new-feature`
 - Commit your changes: `git commit -am 'Add some feature'`
 - Push to the branch: `git push origin my-new-feature`
 - Submit a pull request :D
 
-#### Local man
+#### Contributing
+- New one!
+
+### Local man
 Self pity
 
-# History
+## History
 
 TODO: Write history
 
@@ -21,9 +33,5 @@ TODO: Write credits
 
 ## License
 
-oks lol
-
-## Contributing
-Copy
-
 TODO: Write license
+
