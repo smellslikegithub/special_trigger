@@ -91,8 +91,19 @@ class MdFileHeadingExtractor:
         return self._chapter_details
 
 
+    # def find_chapter_name_and_content(self, chapter_name: str, file_name: Path):
+    #     """
+    #     :return: Returns a List of Chapter Objects that contains the chapter starting index, chapter name, ending
+    #     index for the contents and the number of hashtags in the chapter name. This method is a standalone method
+    #     and should be used to trace if a file contains a specific chapter and it's contents.
+    #     """
+    #
+    #     self._find_chapter_name_and_index()
+
+
 if __name__ == '__main__':
     file_extract = MdFileHeadingExtractor()
-    # result = file_extract.extract_chapter_from_file("#### Contributing", Path("test.md"))
-    # for item in result:
-    #     print(item.__dict__)
+    result = file_extract.extract_chapter_from_file("#### Contributing", Path("test.md"))
+    for item in result:
+        print(item.__dict__)
+
