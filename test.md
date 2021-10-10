@@ -35,3 +35,7 @@ TODO: Write credits
 
 TODO: Write license
 
+#### Contributing
+- New one!
+
+
